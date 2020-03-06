@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<initiation>
+    <!--要上传到minio的文件-->
+    <upload>
+       
+        <file>
+            <!--文件在本地的位置，起始路径为组件壳所在路径 /opt/opsmgr/web/component/xxx/-->
+            <source>/bin/xres-rms/expand/data_dicts_xres_{2}.xml</source>
+            <!-- bucket名称/上传到minio后的名称 -->
+            <target>xdictionary.init.dds/data_dicts_xres_{2}.xml</target>
+        </file>
+        <file>
+            <source>bin/xres-rms/expand/data_dicts_xres_{2}_zh_CN.properties</source>
+            <target>xdictionary.init.dds/data_dicts_xres_{2}_zh_CN.properties</target>
+        </file>
+        <file>
+            <source>bin/xres-rms/expand/data_dicts_xres_{2}_en_US.properties</source>
+            <target>xdictionary.init.dds/data_dicts_xres_{2}_en_US.properties</target>
+        </file>
+    </upload>
+    <!--要删除的minio上的文件-->
+    <remove>
+    </remove>
+</initiation>
+

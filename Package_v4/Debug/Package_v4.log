@@ -1,0 +1,13 @@
+﻿  Moc'ing package_v4.h...
+  Rcc'ing package_v4.qrc...
+RCC : warning : No resources in 'D:\project\Generate_Device_Resource_Pack_Program\Package_v4\Package_v4\package_v4.qrc'.
+  
+  Uic'ing package_v4.ui...
+  stdafx.cpp
+  moc_package_v4.cpp
+  main.cpp
+  package_v4.cpp
+  正在生成代码...
+  qrc_package_v4.cpp
+  Package_v4.vcxproj -> D:\project\Generate_Device_Resource_Pack_Program\Package_v4\Win32\Debug\Package_v4.exe
+  Package_v4.vcxproj -> D:\project\Generate_Device_Resource_Pack_Program\Package_v4\Win32\Debug\Package_v4.pdb (Full PDB)

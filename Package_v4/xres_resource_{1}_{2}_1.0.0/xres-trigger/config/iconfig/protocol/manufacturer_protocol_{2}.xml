@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<manufacturers componentId='xres{2}'>
+   <manufacturer manufacturer="{4}">
+		<activeDevice activeDevice="{15}">
+			<iacProtocols>
+				<iacProtocol>{2}</iacProtocol>
+			</iacProtocols>
+		</activeDevice>
+		<activeDevice activeDevice="true">
+			<iacProtocols>
+				<iacProtocol>shituku</iacProtocol>
+			</iacProtocols>
+		</activeDevice>
+   </manufacturer>
+</manufacturers>

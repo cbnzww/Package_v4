@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<menuManufacturers componentId='xres{2}' >
+	<!--
+	  描述文档
+
+	  menuFacturers下面的属性说明:
+	  dataKey:必填,菜单@厂商,vvs视频类菜单,ias报警菜单,acs人证菜单,sensor传感菜单,hikvision海康威视厂商,dahua大华厂商,other其他厂商
+	  dataValue:必填,菜单,vvs视频类菜单,ias报警菜单,acs人证菜单,sensor传感菜单,
+	  treatyType:必填,菜单关联厂商后对应的接入协议
+	-->
+		<!--菜单厂商 -->
+		<menuManufacturer  dataKey='vss@{4}' 		    dataValue='vss'       sort='2'   treatyType='[{5}]' />
+		<menuManufacturer  dataKey='ias@{4}' 		    dataValue='ias'       sort='5'   treatyType='[{6}]' />
+		<menuManufacturer  dataKey='acs@{4}' 		    dataValue='acs'       sort='8'   treatyType='[{7}]'/>
+</menuManufacturers>
+
+

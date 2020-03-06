@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<items componentId='xres{2}' componentVersion='1.0'>
+	<!--
+	  数据字典描述文档
+	  每个应用的数据字典单独导入
+	  dataDictTypes下面的属性说明:
+	  id: 数据字典编码,不能重复必填
+	  parentCode:父类数据字典,必填,第一节点是0,可以往下级添加,上一级的code就是这一级的父类code
+	  defaultValue:默认的数据字典值,非必填
+	  name:数据字典类型名称
+
+	  dataDicts下面属性说明:
+	  typeCode:数据字典的类型code,必填,就是数据字典类型中的code
+	  dataKey:数据字典key,必填
+	  dataValue:数据字典value,必填
+	  name:数据字典名称,必填
+	  isUsed:是否可用,一般都是可用的
+	  label:数据字典标签
+	-->
+	<!-- 数据字典项 -->
+	<dataDicts>
+		<!-- 接入协议 -->
+		<dataDict typeCode='xresmgr.treaty_type' dataKey='{1}' 		dataValue='{1}'        name='{8}' 		isUsed='1' label='' customOrder='4' expand='{"addType":"net","decodeTag":"{9}"}'/>
+		<!-- 厂商 -->
+		<dataDict typeCode='xresmgr.manufacturer' dataKey='{4}' 			  dataValue='{4}' name='{3}' 		isUsed='1' label='' />
+		<!-- 产商新增的能力-->
+		<dataDict typeCode='xresmgr.capability_set' dataKey='{10}'			        dataValue='{10}'			      name='{11}'		  isUsed='1' label='' />
+		
+		<!-- 大华sdk接入协议-->
+		<dataDict typeCode='xtrigger.iac_protocol_type' dataKey='{2}' dataValue='{2}' name='{12}' isUsed='1' label='' customOrder='6'/>
+
+	</dataDicts>
+</items>
+
+
+

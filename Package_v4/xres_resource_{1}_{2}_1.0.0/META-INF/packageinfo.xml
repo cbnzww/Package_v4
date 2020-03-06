@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packageinfo docVersion="0.5.0"
+xmlns="http://www.hikvision.com/compomentModel/0.5.0/packageinfo" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.hikvision.com/compomentModel/0.5.0/packageinfo ../../schema/0.5.0/packageinfo.xsd">
+  <!--
+  说明见资源包描述
+  -->
+  <package type="resourcePack" id="xres_resource_{1}_{2}" version="1.0.0" />
+  <!--
+  minor+reject 表示最低版本要求, 驱动包对接入组件有最低版本要求
+  -->
+  <params>
+    <param id="displayName.zh_CN" value="{3}设备接入相关配置" />
+    <param id="displayName.en_US" value="xres {4} acess config" />
+    <param id="component.id" value="xres" />
+    <param id="component.compatibility.minor.version" value="1.6.1" />
+    <param id="component.compatibility.minor.action" value="warn" />
+    <param id="unpack.dir" value="./bin" />
+  </params>
+</packageinfo>
